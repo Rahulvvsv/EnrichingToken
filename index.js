@@ -13,10 +13,11 @@ app.post("/api", (req, res) => {
     version: "1.0.0",
     action: "Continue",
     postalCode: "12349",
-    "extension_<extensions-app-id>_CustomAttribute": "value",
+    extension_fb13cfd083a04d37aec60d86bae18705_role: "adminTesting",
+    extension_fb13cfd083a04d37aec60d86bae18705_customTest: "adminTesting2",
   });
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.listen(3008, () => {
+  console.log("Server is running on port 3008");
 });
